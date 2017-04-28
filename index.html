@@ -1,6 +1,103 @@
-<!DOCTYPE html>
+<!doctype html>
 <html>
-  <body>
-    <h1>A blog for Warwick students</h1>
-   </body>
- </html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+	<title>WarwickStudentBlog</title>
+
+	
+	<img class="circle" src="warwick.img">
+
+
+	<!--Link in JQuery framework. -->
+	<script src="js/jquery-3.2.0.js"></script>
+
+	<!--Link in Twitter Bootstrap framework. -->
+	<link rel="stylesheet" href="bootstrap-3.3.7-dist/css/bootstrap.min.css"/>
+	<script src="bootstrap-3.3.7-dist/js/bootstrap.js"></script>	
+
+	<!-- Link in our own style sheets. -->
+	<link rel="stylesheet" href="css/main.css"/>
+
+	<!-- Link in our own JavaScript -->
+	<script src="js/initialize.js"></script>
+</head>
+
+<body onload="initialize()">
+	<nav class="navbar navbar-inverse navbar-fixed-top">
+      <div class="container">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="#">Project name</a>
+        </div>
+        <div id="navbar" class="navbar-collapse collapse">
+          <form class="navbar-form navbar-right">
+            <div class="form-group">
+              <input type="text" placeholder="Email" class="form-control">
+            </div>
+            <div class="form-group">
+              <input type="password" placeholder="Password" class="form-control">
+            </div>
+            <button type="submit" class="btn btn-success">Sign in</button>
+          </form>
+        </div><!--/.navbar-collapse -->
+      </div>
+    </nav>
+
+   
+
+
+    <!-- Main jumbotron for a primary marketing message or call to action -->
+    <div class="jumbotron">
+      <div class="container">
+        <h1>Warwick Student Blog</h1>
+        <p>Discussing all things Warwick.</p>
+        <p>Read Warwick students' advice for wellness and positivity during Term 3.  </p>
+        <p><a class="btn btn-primary btn-lg" href="#" role="button">Learn more &raquo;</a></p>
+      </div>
+    </div>
+
+    <div class="container">
+      <!-- Example row of columns -->
+      <div class="row">
+        <div class="col-md-4">
+          <h2>Anam</h2>
+          <p>Eat well, stay hydrated! </p>
+          <p><a class="btn btn-default" href="#" role="button">View details &raquo;</a></p>
+        </div>
+        <div class="col-md-4">
+          <h2>Colette</h2>
+          <p>Revise with a buddy! </p>
+          <p><a class="btn btn-default" href="#" role="button">View details &raquo;</a></p>
+       </div>
+        <div class="col-md-4">
+          <h2>Amy</h2>
+          <p>Sleep should be your new best friend. During the exam period it may seem tempting to pull that notorious 'all-nighter', but getting plenty of sleep is essential for brain power. Staying up all night to cram may hinder your productivity the next day. Aim for at least 7 hours sleep when revising, I promise you'll feel better the next day.</p>
+          <p><a class="btn btn-default" href="#" role="button">View details &raquo;</a></p>
+        </div>
+      </div>
+
+      <hr>
+
+      <footer>
+        <p>&copy; 2016 Company, Inc.</p>
+      </footer>
+    </div> <!-- /container -->
+
+
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script>window.jQuery || document.write('<script src="../../assets/js/vendor/jquery.min.js"><\/script>')</script>
+    <script src="../../dist/js/bootstrap.min.js"></script>
+    <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+    <script src="../../assets/js/ie10-viewport-bug-workaround.js"></script>
+</body>
+</html>
