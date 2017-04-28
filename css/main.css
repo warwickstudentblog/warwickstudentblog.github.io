@@ -1,5 +1,15 @@
 /*This is just an example of a CSS declaration block.  Add your own selectors, property names and property values underneath. */
+body {
+  padding-top: 50px;
+  padding-bottom: 20px;
+}
+
+
 .big {
 	font-size: 125%;
 }
 
+.jumbotron {
+	background-image: url("../images/warwick.jpg");
+	background-size: cover;
+}
