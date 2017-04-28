@@ -14,4 +14,8 @@ body {
 	background-image: url("../images/warwick.jpg");
 	background-size: cover;
 
+
+}
+.col-md-4{
+	color: grey;
 }
